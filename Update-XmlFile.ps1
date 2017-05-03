@@ -9,7 +9,7 @@
     Sample test.xml: <root><foo a1="bar" /></root>.
     Updated test.xml: <root><foo a1="new value" /></root>.
 .NOTES
-    Accepts a single xml file only.
+    Accepts a single xml file only with UTF8 encoding.
     Use -Verbose and -WhatIf to find out details.
 #>
 function Update-XmlFile {
